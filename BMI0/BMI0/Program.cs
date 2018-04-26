@@ -74,19 +74,19 @@ namespace BMI0
                     {
                         if (BMI < 16.5 || BMI > 31.5)
                         {
-                            Console.WriteLine("恭喜你不用當兵");
+                            Console.WriteLine("恭喜你不用當兵！");
                         }
                         else if (16.5 <= BMI && BMI < 17)
                         {
-                            Console.WriteLine("你還是得當替代役");
+                            Console.WriteLine("你還是得當替代役！");
                         }
                         else if (31 <= BMI && BMI < 31.5)
                         {
-                            Console.WriteLine("你還是得當替代役");
+                            Console.WriteLine("你還是得當替代役！");
                         }
                         else
                         {
-                            Console.WriteLine("乖乖當兵吧");
+                            Console.WriteLine("乖乖當兵吧！");
                         }
                     }
 
